@@ -1,0 +1,13 @@
+PPU-02a88c3c6cd415b0bb81f1606bc743835881a4ba:
+  "Ultrawide 3440x1440 - Gameplay":
+    Games: *uc3_119title
+    Author: "vl4sty"
+    Notes: "3440x1440"
+    Patch Version: 2.0
+    Patch:
+    - [ be32, 0x008152E0, 0x60000000 ]
+    - [ be32, 0x00734BB4, 0x60000000 ]
+    - [ bef32, 0x0115CF74, 0.72 ]
+    - [ bef32, 0x01334930, 0.39 ] #cca
+    - [ bef32, 0x01334B30, 0.39 ] #cca
+    - [ be32, 0x0098C5C0, 0x60000000 ] #NOP for MP aspect ratio reset
