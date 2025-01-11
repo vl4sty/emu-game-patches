@@ -1,0 +1,6 @@
+gametitle=GTA: LCS
+
+[Disable color filter]
+author=vl4sty
+description=This disables the color filter
+patch=1,EE,2035F1B4,word,00000000

@@ -1,0 +1,9 @@
+gametitle=Crouching Tiger, Hidden Dragon
+
+[21:9 Gameplay]
+author=vl4sty,arapapa
+description=21:9, OG 16:9 hack by arapapa, added cutscene renderfix and 21:9
+gsaspectratio=Stretch
+patch=1,EE,20C37580,word,3f100000 //fov
+patch=1,EE,20C37590,word,3fe00000 //render fix 1
+patch=1,EE,20C37598,word,3fe00000 //render fix 2 for cutscenes

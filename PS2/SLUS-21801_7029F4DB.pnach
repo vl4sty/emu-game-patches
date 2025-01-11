@@ -1,0 +1,18 @@
+gametitle=NFS: Undercover NTSC 60 Hz
+comment=21:9 patch by vl4sty
+
+[21:9 Gameplay]
+author=vl4sty
+description=21:9 in game and menu
+gsaspectratio=Stretch
+patch=1,EE,006533B0,word,3F222222 //Aspect ratio - menu
+patch=1,EE,00AB339C,word,00000001 //widescreen force
+patch=1,EE,00660210,word,3F222222 //Aspect ratio - game
+patch=1,EE,0063BBE4,word,40000000 //Render fix
+patch=1,EE,0065869C,word,40000000 //Render fix
+
+[21:9 HUD]
+author=vl4sty
+description=21:9 HUD
+gsaspectratio=Stretch
+patch=1,EE,006533BC,word,3F222222 //Aspect ratio - HUD

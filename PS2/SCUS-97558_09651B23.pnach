@@ -1,0 +1,7 @@
+gametitle=J&D: The Lost Frontier
+
+[21:9]
+author=vl4sty
+description=Select 16:9 ratio in the settings.
+gsaspectratio=Stretch
+patch=1,EE,001E40CB4,word,3FA22222 //3F733333

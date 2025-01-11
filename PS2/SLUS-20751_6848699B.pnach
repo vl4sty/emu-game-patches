@@ -1,0 +1,18 @@
+gametitle=James Bond 007: Everything or Nothing
+
+[Ultrawide\On Foot]
+author=vl4sty, nemesis2000
+description=21:9 On Foot + forcing 16:9 value ingame hack by nemesis2000
+gsaspectratio=Stretch
+//FORCE 16:9
+patch=1,EE,00315D28,word,24020001
+//21:9
+patch=1,EE,00831508,word,3FAAAAAA
+
+[Ultrawide\Car]
+author=vl4sty
+description=BUGS: Small flickering line in the menu. "The Final Card" on foot mission freezes with this patch, disable it and reload the game (game has two ELFs/video modes, memory gets remapped).
+gsaspectratio=Stretch
+patch=1,EE,005721E4,word,3F400000
+patch=1,EE,005721E8,word,3F100000
+patch=1,EE,005721EC,word,3FA00000

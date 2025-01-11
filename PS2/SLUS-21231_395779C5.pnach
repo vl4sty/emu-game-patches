@@ -1,0 +1,8 @@
+gametitle=Sniper Elite NTSC
+
+[Disable ghosting effect]
+author=vl4sty
+description=Disable ghosting for P1 and P2, fix for two player campaign
+
+patch=1,EE,004A9960,word,00000000
+patch=1,EE,004A9964,word,00000000
