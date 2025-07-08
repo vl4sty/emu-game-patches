@@ -1,0 +1,6 @@
+gametitle=Medal of Honor: Rising Sun (SLUS-20753)
+
+[60 FPS]
+author=vl4sty
+description=60 FPS
+patch=1,EE,2015A138,extended,2C420001
