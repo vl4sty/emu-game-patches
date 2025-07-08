@@ -8,6 +8,7 @@ I will upload here some of my ultrawide patches and other fixes, mostly for PCSX
 | Crouching Tiger, Hidden Dragon    | SLUS-21027_EB198738.pnach | 21:9 patch                                          |
 | Grand Theft Auto: LCS             | SLUS-21423_7EA439F5.pnach | Disable color filter                                |
 | Jak and Daxter: The Lost Frontier | SCUS-97558_09651B23.pnach | 21:9 patch                                          |
+| Medal of Honor: Rising Sun        | SLUS-20753_F22C1E3B.pnach | Set FPS limit to 60 FPS                             |
 | Need for Speed: Undercover        | SLUS-21801_7029F4DB.pnach | 21:9 patch                                          |
 | Sniper Elite                      | SLUS-21231_395779C5.pnach | Disable ghosting effect, this fixes CO-OP campaign. |
 
