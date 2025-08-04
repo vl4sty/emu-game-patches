@@ -1,4 +1,4 @@
-I will upload here some of my ultrawide patches and other fixes, mostly for PCSX2 and RPCS3.
+I will upload here some of my patches and other fixes, mostly for PCSX2 and RPCS3.
 
 ## PCSX2
 |           **Game name**           |       **File name**       |                   **Description**                   |
@@ -11,6 +11,7 @@ I will upload here some of my ultrawide patches and other fixes, mostly for PCSX
 | Medal of Honor: Rising Sun        | SLUS-20753_F22C1E3B.pnach | Set FPS limit to 60 FPS                             |
 | Need for Speed: Undercover        | SLUS-21801_7029F4DB.pnach | 21:9 patch                                          |
 | Sniper Elite                      | SLUS-21231_395779C5.pnach | Disable ghosting effect, this fixes CO-OP campaign. |
+| DarkWatch                         | SLUS-21042_327053E8.pnach | Extended FOV from 55 to 90                          |
 
 ## RPCS3
 |   **Game name**   |      **File name**     |              **Description**             |
