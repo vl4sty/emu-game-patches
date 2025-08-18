@@ -1,0 +1,11 @@
+gametitle=007: Nightfire (SLUS-20579)
+[Extended FOV]
+author=vl4sty
+description= Extended camera FOV - Original value 1.05 float, applies to cutscenes as well. If the game crashes while loading then disable it. (memory gets remapped during vehicle sections, direct executable patch needed)
+patch=1,EE,001BB258,word,3C013FA6 //lui at,0x3FA6
+patch=1,EE,001BB25C,word,34216666 //ori at,at,0x6666
+patch=1,EE,001BB4B8,word,3C013FA6 //lui at,0x3FA6
+patch=1,EE,001BB4BC,word,34216666 //ori at,at,0x6666
+
+//Turret sections FOV
+//patch=1,EE,0014AEDDC,word,42340000 //memory gets remapped, breaks some missions on-foot, direct executable patch needed
