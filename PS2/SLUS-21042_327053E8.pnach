@@ -3,6 +3,6 @@ gametitle=Darkwatch (SLUS-21042)
 author=vl4sty
 description=This cheat increases the in-game FOV from 55 to 90.
 
-patch=1,EE,0071FE4C,word,42D20000 //write 90 to unused memory
+patch=1,EE,0071FE4C,word,42b40000 //write 90 to unused memory
 patch=1,EE,00151E1C,word,3C090072 //lui t1,0x0072
 patch=1,EE,00151E20,word,C520FE4C //lwc1 f00,-0x1B4(t1)
