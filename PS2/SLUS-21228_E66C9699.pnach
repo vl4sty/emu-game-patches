@@ -1,0 +1,6 @@
+gametitle=Call of Duty 2: Big Red One (SLUS-21228)
+
+[Extended FOV]
+author=vl4sty
+description=Extended FOV from 55 to 90.
+patch=1,EE,0043FAB8,word,42820000

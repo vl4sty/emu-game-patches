@@ -13,6 +13,8 @@ I will upload here some of my patches and other fixes, mostly for PCSX2 and RPCS
 | Sniper Elite                      | SLUS-21231_395779C5.pnach | Disable ghosting effect, this fixes CO-OP campaign. |
 | DarkWatch                         | SLUS-21042_327053E8.pnach | Extended FOV from 55 to 90                          |
 | 007: Nightfire                    | SLUS-20579_5B86BB62.pnach | Extended FOV for on-foot sections.                  |
+| Medal of Honor: Vanguard          | SLUS-21597_EA1BFC51.pnach | 21:9 patch, extended FOV and viewmodel.             |
+| CALL OF DUTY 2: Big Red One       | SLUS-21228_E66C9699.pnach | Extended FOV from 55 to 90.                         |
 
 ## RPCS3
 |   **Game name**   |      **File name**     |              **Description**             |

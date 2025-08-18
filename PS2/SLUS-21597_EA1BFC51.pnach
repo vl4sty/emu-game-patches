@@ -1,0 +1,19 @@
+gametitle=Medal of Honor: Vanguard (SLUS-21597)
+
+[21:9]
+author=vl4sty, nemesis2000
+description= 21:9 AR, based on nemesis2000 cheat.
+patch=1,EE,001308B4,word,00000000
+patch=1,EE,001308BC,word,3C013FD5
+patch=1,EE,001308C0,word,34215555
+
+[Extended Viewmodel]
+author=vl4sty
+description= Extended Viewmodel (O.G. value is 0.75.f, edit this float to move the gun).
+patch=1,EE,005EF404,word,3F800000 //1.f
+
+[Extended FOV]
+author=vl4sty
+description= Extended FOV from 58 to 90.
+patch=1,EE,005EF040,word,426C0000
+patch=1,EE,00684708,word,426C0000
